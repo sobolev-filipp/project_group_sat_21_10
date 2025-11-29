@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Моя страница</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- header+main+footer -->
+        <header>
+            <nav class="menu">
+                <img src="logo.png" alt="Логотип" class="logo">
+                <ul class="menu_item">
+                    <!-- (li>a)*4 -->
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Скриншоты</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero-block">
+                <img src="main_img_1.png" alt>
+                <div>
+                    <h1>Меня зовут Филипп Александрович</h1>
+                    <button>Написать мне</button>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container_about">
+                    <h2 class="text_style">Об авторе</h2>
+                    <div class="container">
+                        <p>Я занимаюсь веб-дизайном, front-end и back-end
+                            разработкой уже 3 года. Вам нужен дизайн веб-сайта,
+                            верстка сайта или может быть сайт "под ключ"? Тогда
+                            свяжитесь со мной!</p>
+                        <img src="about__img.png">
+                    </div>
+                </div>
+            </section>
+
+            <section class="container_video">
+                <h2 class="text_style">Видео</h2>
+                <iframe class="video"
+                    src="https://rutube.ru/play/embed/61ed2bd88a55f1767980eebc49cc19c7/"
+                    style="border: none;" allow="clipboard-write; autoplay"
+                    webkitAllowFullScreen mozallowfullscreen
+                    allowFullScreen></iframe>
+            </section>
+
+            <section class="about">
+                <h2 class="text_style">Галерея</h2>
+                <div class="container galery_container">
+                    <img src="gallery__img.png" alt="">
+                    <img src="gallery__img2.png" alt="">
+                    <img src="gallery__img3.png" alt="">
+                    <img src="gallery__img4.png" alt="">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav class="footer_menu">
+                <div>
+                    <p>Филипп Александрович</p>
+                    <p>2025. Все права защищены.</p>
+                </div>
+                <div class="social_group">
+                    <a href="#" class="social">
+                        <img src="tg.png" alt="">
+                    </a>
+                    <a href="#" class="social">
+                        <img src="vk.png" alt="">
+                    </a>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
